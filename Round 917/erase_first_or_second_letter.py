@@ -1,3 +1,19 @@
+# set
+# s = set([1, 1, 2, 2, 3, 3])
+# print(s)  # {1, 2, 3}
+
+# s.add(4)
+# print(s)  # {1, 2, 3, 4}
+
+# s.remove(4)
+# print(s)  # {1, 2, 3}
+
+# union and intersection
+# s1 = set([1, 2, 3])
+# s2 = set([2, 3, 4])
+# s1 & s2  # {2, 3}
+# s1 | s2  # {1, 2, 3, 4}
+
 t = int(input())
 
 for _ in range(t):
